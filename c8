@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo -n "Enter your name: "
-read -r input
-if [ -z "$input" ]; then
-    echo "Hello, tmpuser?"
-else
-    echo "Hello, $input!"
-fi
